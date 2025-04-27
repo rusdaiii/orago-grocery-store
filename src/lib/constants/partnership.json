@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Steps",
+    "image": "/icons/partnership/steps-partner.svg"
+  },
+  {
+    "name": "Mango",
+    "image": "/icons/partnership/mango-partner.svg"
+  },
+  {
+    "name": "Gseries",
+    "image": "/icons/partnership/gseries-partner.svg"
+  },
+  {
+    "name": "Food",
+    "image": "/icons/partnership/food-partner.svg"
+  },
+  {
+    "name": "Food 2",
+    "image": "/icons/partnership/food-partner-2.svg"
+  },
+  {
+    "name": "Bookoff",
+    "image": "/icons/partnership/bookoff-partnero.svg"
+  }
+]

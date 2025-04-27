@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Brooke Haney",
+    "role": "customer",
+    "testimonial": "nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis",
+    "rating": 3.5
+  },
+  {
+    "name": "Martina Bass",
+    "role": "customer",
+    "testimonial": "tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus.",
+    "rating": 4
+  },
+  {
+    "name": "Abigail Finley",
+    "role": "customer",
+    "testimonial": "ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus",
+    "rating": 5
+  },
+  {
+    "name": "Berk Cummings",
+    "role": "customer",
+    "testimonial": "orci luctus et ultrices posuere cubilia Curae Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras",
+    "rating": 4.5
+  },
+  {
+    "name": "Yolanda Mcconnell",
+    "role": "customer",
+    "testimonial": "mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec",
+    "rating": 5
+  },
+  {
+    "name": "Joseph Moran",
+    "role": "customer",
+    "testimonial": "velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis quam a felis ullamcorper viverra.",
+    "rating": 4.5
+  },
+  {
+    "name": "Isaac Gilbert",
+    "role": "customer",
+    "testimonial": "mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem semper auctor. Mauris",
+    "rating": 4
+  },
+  {
+    "name": "Leroy Bullock",
+    "role": "customer",
+    "testimonial": "id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit",
+    "rating": 3.5
+  },
+  {
+    "name": "Virginia Mcgowan",
+    "role": "customer",
+    "testimonial": "aliquet diam. Sed diam lorem, auctor quis, tristique ac, eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas",
+    "rating": 5
+  },
+  {
+    "name": "Bianca Haley",
+    "role": "customer",
+    "testimonial": "et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis",
+    "rating": 5
+  }
+]
