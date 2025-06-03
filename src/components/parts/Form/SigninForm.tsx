@@ -61,10 +61,11 @@ const SigninForm = ({ buttonVariant, rounded }: AuthFormProps) => {
       });
 
       if (signInResponse?.error) {
-        return toast({
+        toast({
           title: 'Error',
           description: signInResponse.error,
         });
+        return;
       }
 
       toast({
