@@ -85,34 +85,34 @@ const ChangePasswordForm = () => {
   return (
     <div>
       <Card>
-        <CardHeader className='border-b border-border'>
-          <h1 className='font-semibold'>Change Password</h1>
+        <CardHeader className="border-b border-border">
+          <h1 className="font-semibold">Change Password</h1>
           {session?.user.provider !== 'credentials' && (
-            <p className='text-sm text-gray-500'>
+            <p className="text-sm text-gray-500">
               {`You are currently logged in with ${session?.user.provider}. You can only change
               your password if you have signed up with an email and password.`}
             </p>
           )}
         </CardHeader>
-        <CardContent className='pt-5'>
+        <CardContent className="pt-5">
           <div>
             <Form {...form}>
               <form
-                className='space-y-6'
+                className="space-y-6"
                 onSubmit={form.handleSubmit(onSubmit)}
               >
                 <FormField
                   control={form.control}
-                  name='currentPassword'
+                  name="currentPassword"
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel>
                         Current Password
-                        <span className='text-red-500'>*</span>
+                        <span className="text-red-500">*</span>
                       </FormLabel>
                       <FormControl>
                         <PasswordInput
-                          placeholder='Enter Current Password'
+                          placeholder="Enter Current Password"
                           disabled={session?.user.provider !== 'credentials'}
                           {...field}
                         />
@@ -122,19 +122,19 @@ const ChangePasswordForm = () => {
                   )}
                 />
 
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <FormField
                     control={form.control}
-                    name='password'
+                    name="password"
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel>
                           New Password
-                          <span className='text-red-500'>*</span>
+                          <span className="text-red-500">*</span>
                         </FormLabel>
                         <FormControl>
                           <PasswordInput
-                            placeholder='Enter New Password'
+                            placeholder="Enter New Password"
                             disabled={session?.user.provider !== 'credentials'}
                             {...field}
                           />
@@ -145,16 +145,16 @@ const ChangePasswordForm = () => {
                   />
                   <FormField
                     control={form.control}
-                    name='passwordConfirmation'
+                    name="passwordConfirmation"
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel>
                           Confirm Password
-                          <span className='text-red-500'>*</span>
+                          <span className="text-red-500">*</span>
                         </FormLabel>
                         <FormControl>
                           <PasswordInput
-                            placeholder='Confirm New Password'
+                            placeholder="Confirm New Password"
                             disabled={session?.user.provider !== 'credentials'}
                             {...field}
                           />
@@ -166,8 +166,8 @@ const ChangePasswordForm = () => {
                 </div>
 
                 <Button
-                  type='submit'
-                  className='w-full md:w-fit rounded-full'
+                  type="submit"
+                  className="w-full md:w-fit rounded-full"
                   disabled={session?.user.provider !== 'credentials'}
                 >
                   Change Password
